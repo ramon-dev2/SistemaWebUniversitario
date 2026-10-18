@@ -35,3 +35,6 @@ coverage/
 *.ndf
 *.ldf
 *.bacpac
+
+# Skill local del proyecto
+/SKILL-dotnet-university-backend.md
