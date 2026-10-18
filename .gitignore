@@ -30,6 +30,7 @@ coverage/
 **/appsettings.*.Local.json
 
 # Archivos de datos locales de SQL Server
+/database/
 *.mdf
 *.ndf
 *.ldf
