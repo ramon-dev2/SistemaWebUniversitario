@@ -1,0 +1,36 @@
+# Compilacion de .NET
+**/bin/
+**/obj/
+artifacts/
+
+# Archivos locales de Visual Studio y Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resultados de pruebas y cobertura
+**/TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Variables de entorno y configuracion privada local
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+
+# Archivos de datos locales de SQL Server
+*.mdf
+*.ndf
+*.ldf
+*.bacpac
